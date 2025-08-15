@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-#&")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "True")
 
-ALLOWED_HOSTS = ["back-end-nu-blond.vercel.app"]
+ALLOWED_HOSTS = ["back-end-nu-blond.vercel.app", "back-2riyhzk1l-pedroguilhermesilvs-projects.vercel.app"]
 
 
 CORS_ORIGIN_ALLOW_ALL = True
